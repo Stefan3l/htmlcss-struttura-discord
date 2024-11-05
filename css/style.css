@@ -7,3 +7,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/*---------------
+     General
+---------------*/ 
+ .head-top > * {
+    padding: 2px 0;
+} 
+
+.logo, .link, .login {
+    border:black 1px dashed;
+    margin: 10px 0;
+}
+
+
+/*---------------
+     Header
+---------------*/   
+
+.container {
+    background-color: #add8e6;
+}
+
+.head-top {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo, .login{
+    width: 20%;
+}
+
+.link {
+   width: 60%;
+   text-align: center;
+}
+
+.login {
+   text-align: right;
+}
+
