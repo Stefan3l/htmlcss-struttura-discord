@@ -64,26 +64,43 @@
     width: 900px;
     min-height: 400px;
     background-color: #ee82ee;
+    border: black 1px dashed;
 }
 
 /*---------------
       Main
 ---------------*/
+/* Section Related  */
 
-.col-big, .col-small {
+.col-big, .col-small, .qr-app {
     margin: 20px 0;
+    border: black 1px dashed;
 }
 
 .col-big {
-    width: 70%;
+    width: 60%;
     min-height: 500px;
     background-color: #1e90ff;
 }
 
 .col-small {
-    width: 30%;
+    width: 40%;
     min-height: 500px;
     background-color: #ffc0cb;
+}
+
+/* Work with us  */
+
+.work-with-us, .download-app {
+    background-color: #d3d3d3;
+}
+
+/* Codice QR for APP  */
+
+.qr-app {
+    width: 1200px;
+    min-height: 900px;
+    background-color: #228b22;
 }
 
 
