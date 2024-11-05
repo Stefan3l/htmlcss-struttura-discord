@@ -72,7 +72,8 @@
 ---------------*/
 /* Section Related  */
 
-.col-big, .col-small, .qr-app {
+.col-big, .col-small, .qr-app,
+.col-big-info, .col-small-info {
     margin: 20px 0;
     border: black 1px dashed;
 }
@@ -98,9 +99,27 @@
 /* Codice QR for APP  */
 
 .qr-app {
-    width: 1200px;
+    width: 100%;
     min-height: 900px;
     background-color: #228b22;
 }
 
+/*---------------
+      Footer
+---------------*/
 
+footer {
+    background-color: #23272a;
+}
+
+.col-big-info {
+    width: 40%;
+    min-height: 600px;
+    background-color: #f08080;
+}
+
+.col-small-info {
+    width: 15%;
+    min-height: 600px;
+    background-color: #20b2aa;
+}
