@@ -12,13 +12,18 @@
 /*---------------
      General
 ---------------*/ 
- .head-top > * {
-    padding: 2px 0;
-} 
 
-.logo, .link, .login {
+
+.logo, .link, .login, 
+.end-logo, .button {
     border:black 1px dashed;
     margin: 10px 0;
+}
+
+.col-big, .col-small, .qr-app,
+.col-big-info, .col-small-info {
+    margin: 20px 0;
+    border: black 1px dashed;
 }
 
 
@@ -30,6 +35,11 @@
     background-color: #add8e6;
 }
 
+.head-top > * {
+    padding: 2px 0;
+    background-color: #daa520;
+} 
+
 .container {
     display: flex;
     max-width: 1200px;
@@ -37,7 +47,7 @@
     margin-right: auto;
 }
 
-.logo, .login{
+.logo, .login {
     width: 20%;
 }
 
@@ -72,11 +82,7 @@
 ---------------*/
 /* Section Related  */
 
-.col-big, .col-small, .qr-app,
-.col-big-info, .col-small-info {
-    margin: 20px 0;
-    border: black 1px dashed;
-}
+
 
 .col-big {
     width: 60%;
@@ -107,7 +113,7 @@
 /*---------------
       Footer
 ---------------*/
-
+/* Footer info  */
 footer {
     background-color: #23272a;
 }
@@ -122,4 +128,27 @@ footer {
     width: 15%;
     min-height: 600px;
     background-color: #20b2aa;
+}
+
+/* Footer end  */
+
+.footer-end {
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+}
+
+.bar-end {
+    background-color: #7fffd4;
+    min-height: 80px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end-logo, .button {
+    background-color: #ffb6c1;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
 }
