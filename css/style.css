@@ -25,11 +25,11 @@
      Header
 ---------------*/   
 
-.container {
+.container-top {
     background-color: #add8e6;
 }
 
-.head-top {
+.head-top, .hed-bottom {
     display: flex;
     max-width: 1200px;
     margin-left: auto;
@@ -48,4 +48,21 @@
 .login {
    text-align: right;
 }
+
+
+.container-bottom {
+    background-color: #00008b;
+}
+
+.hed-bottom {
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.hero {
+    width: 900px;
+    min-height: 400px;
+    background-color: #ee82ee;
+}
+
 
