@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 /*---------------
      General
 ---------------*/ 
@@ -29,7 +30,7 @@
     background-color: #add8e6;
 }
 
-.head-top, .hed-bottom {
+.container {
     display: flex;
     max-width: 1200px;
     margin-left: auto;
@@ -63,6 +64,26 @@
     width: 900px;
     min-height: 400px;
     background-color: #ee82ee;
+}
+
+/*---------------
+      Main
+---------------*/
+
+.col-big, .col-small {
+    margin: 20px 0;
+}
+
+.col-big {
+    width: 70%;
+    min-height: 500px;
+    background-color: #1e90ff;
+}
+
+.col-small {
+    width: 30%;
+    min-height: 500px;
+    background-color: #ffc0cb;
 }
 
 
